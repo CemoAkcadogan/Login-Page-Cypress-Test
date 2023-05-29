@@ -1,5 +1,6 @@
 # cypress-test
 Cypress Test Example
-Bu kod parçası, oturum açıldıktan sonra sayfada "GIRIS BASARILI" metnini içeren bir elementin görünür olup olmadığını kontrol edecektir. cy.contains() komutu, belirli bir metni içeren elementi seçmek için kullanılır ve should('be.visible') ifadesi, elementin görünür olduğunu kontrol eder.
 
-Bu şekilde test senaryosu, oturum açma işlemini gerçekleştirdikten sonra sayfada "GIRIS BASARILI" metnini kontrol edecektir. Eğer metin sayfada görünüyorsa test başarılı olacak, aksi takdirde hata verecektir.
+This code snippet will check whether an element containing the text "GIRIS BASARILI" is visible on the page after logging in. The cy.contains() command is used to select an element that contains a specific text, and the should('be.visible') assertion checks if the element is visible.
+
+In this way, the test scenario will verify the presence of the "GIRIS BASARILI" text on the page after performing the login operation. If the text is visible on the page, the test will pass; otherwise, it will fail.
